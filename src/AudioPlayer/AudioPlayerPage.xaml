@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:AudioPlayer" 
+		x:Class="AudioPlayer.AudioPlayerPage">
+	<StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Fill">
+		<Button Text="{Binding CommandText}"
+				Command="{Binding PlayPauseCommand}" />
+		<Label VerticalOptions="Center" 
+			HorizontalOptions="Center"
+			HorizontalTextAlignment="Center"
+			FontSize="Micro">
+			<Label.Text>
+"Galway" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 3.0 License
+http://creativecommons.org/licenses/by/3.0/
+			</Label.Text>
+		</Label>
+	</StackLayout>
+</ContentPage>
